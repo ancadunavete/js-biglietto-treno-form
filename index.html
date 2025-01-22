@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IL PREZZO DEL TUO BIGLIETTO</title>
+    <link rel="stylesheet" href="./style.css">   
+</head>
+
+<body>
+    <div class="container">
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <div class="form-section">
+            <label for="name">Nome + Cognome</label>
+            <input type="text" id="name" placeholder="Jon Snow">
+
+            <label for="distance">Km da percorrere</label>
+            <input type="number" id="distance" placeholder="10">
+
+            <label for="age">Fascia d'età</label>
+            <select id="age">
+                <option value="maggiore">Maggiorenne</option>
+                <option value="minore">Minorenne</option>
+                <option value="anziano">Over 65</option>
+            </select>
+
+            <button id="generate">Genera</button>
+            <button id="cancel" disabled>Annulla</button>
+        </div>
+
+        <h2>IL TUO BIGLIETTO</h2>
+        <div class="outcome">
+            <table>
+                <tr>
+                    <th class="highlight">PASSEGGERO</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td class="left">Nome + Cognome</td>
+                    <td>Jon Snow</td>
+                </tr>
+                <tr>
+                    <td class="left">Offerta</td>
+                    <td>Biglietto Standard</td>
+                </tr>
+                <tr>
+                    <td class="left">Carrozza</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td class="left">Codice CP</td>
+                    <td>92911</td>
+                </tr>
+                <tr>
+                    <td class="left">Costo biglietto</td>
+                    <td>2.10€</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
