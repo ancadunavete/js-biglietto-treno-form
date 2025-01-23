@@ -51,7 +51,7 @@ document.getElementById("generate").addEventListener("click", () => {
         </tr>
         <tr>
             <td class="left">Codice CP</td>
-            <td>${Math.floor(Math.random() * 100000)}</td>
+            <td>${Math.floor(Math.random() * 100)}</td>
         </tr>
         <tr>
             <td class="left">Costo biglietto</td>
